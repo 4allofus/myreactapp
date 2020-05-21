@@ -10,7 +10,7 @@ class MainWindow extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1 className="title">React Movie Search</h1>
+        <h1 className="title">React Movie Search - powered by <a href="https://www.themoviedb.org">themoviedb.org</a></h1>
         <SearchMovies />
       </div>
     );
