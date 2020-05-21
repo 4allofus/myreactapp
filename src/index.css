@@ -80,6 +80,26 @@ small {
     margin-bottom: 0;
   }
 
+  .card {
+    padding: 2rem 4rem;
+    border-radius: 10px;
+    border: solid white 10px;
+  
+    box-shadow: 2px 1px 5px white;
+    margin-top: 2rem;
+    background-color: black;
+    color: white;
+    display: flex;
+  }
+  
+  .card--title {
+    margin-bottom: 0.5rem;
+    font-size: 3.2rem;
+  }
+  
+  .card--image {
+    margin: 20px 20px;
+  }
 }
 
 .card {
@@ -91,7 +111,6 @@ small {
   margin-top: 2rem;
   background-color: black;
   color: white;
-  display: flex;
 }
 
 .card--title {
@@ -101,4 +120,5 @@ small {
 
 .card--image {
   margin: 20px 20px;
+  display: block;
 }
