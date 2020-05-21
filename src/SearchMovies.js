@@ -32,7 +32,7 @@ function SearchMovies(){
         <>
         <form className="form" onSubmit={searchMovies}>
             <label className="label" htmlFor="query">Movie name: </label>
-            <input className="input" type="text" name="query" placeholder="the matrix, jurassic"
+            <input className="input" type="text" required="required" name="query" placeholder="the matrix, jurassic"
             value={query} onChange={(e) => setQuery(e.currentTarget.value)}/>
             <button className="button" type="submit">search</button>
         </form>
