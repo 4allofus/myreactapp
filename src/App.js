@@ -1,18 +1,13 @@
 import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import todosData from './todosData'
-import TodoItems from './TodoItems'
+//import todosData from './todosData'
+//import TodoItems from './TodoItems'
 
 function App() {
-  
-  const TodoComp = todosData.map(myItems => <TodoItems key={myItems.id} myItems={myItems}/>)
-  return (
-    <div>
-        <h1>React test</h1> 
-        {TodoComp}
-    </div>
-  );
+    return (
+    <h1>Hello World</h1>
+    )
 }
 
 export default App;
