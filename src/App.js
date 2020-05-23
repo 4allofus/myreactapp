@@ -1,13 +1,14 @@
 import React from 'react';
-//import logo from './logo.svg';
+import logo from './logo.svg';
 import './App.css';
-//import todosData from './todosData'
-//import TodoItems from './TodoItems'
+//import './App.sass';
 
 function App() {
-    return (
-    <h1>Hello World</h1>
-    )
+  return (
+    <div className="App">
+        <img src={logo} className="App-logo" alt="logo" />
+    </div>
+  );
 }
 
 export default App;
