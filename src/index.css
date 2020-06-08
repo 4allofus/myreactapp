@@ -54,7 +54,9 @@ code {
   background-color: rgba(0,0,0,0.7);
   color: white;
 }
-
+.adjust_text_yellow{
+  
+}
 .card--title {
   margin-bottom: 0.5rem;
   font-size: 3.2rem;
