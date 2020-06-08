@@ -72,6 +72,10 @@ code {
     align-items: center;
   }
 
+  .adjust_text_yellow{
+    color: yellow;
+  }
+
   .input{
     margin-bottom: 0;
   }
@@ -89,7 +93,7 @@ code {
   
   .card--title {
     margin-bottom: 0.5rem;
-    font-size: 3.2rem;
+    font-size: 2rem;
   }
   
   .card--image {

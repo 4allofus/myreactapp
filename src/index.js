@@ -29,7 +29,7 @@ class MainWindow extends React.Component {
             <header className="hero-body">
               <div className="container is-overlay has-text-centered single-spaced" >
                 <h1 className="subtitle is-2 has-text-white">React Movie Search</h1>
-                <h2 className="title is-3 has-text-white">Powered by <a href="https://themoviedb.org">themoviedb.org</a></h2>
+                <h2 className="title is-3 has-text-white adjust_text_yellow">Powered by <a href="https://themoviedb.org">themoviedb.org</a></h2>
               </div>
             </header>
 
