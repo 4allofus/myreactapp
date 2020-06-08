@@ -55,8 +55,9 @@ code {
   color: white;
 }
 .adjust_text_yellow{
-  
+  color: yellow;
 }
+
 .card--title {
   margin-bottom: 0.5rem;
   font-size: 3.2rem;
@@ -75,7 +76,7 @@ code {
   }
 
   .adjust_text_yellow{
-    color: yellow;
+   color: blue;
   }
 
   .input{
